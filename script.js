@@ -8,7 +8,7 @@
             statusText.textContent = '代理服务状态检测中，请稍候...';
             
             // 使用fetch API检测网站状态
-            fetch('https://wikipedia.zyhorg.ac.cn/static/images/project-logos/zhwiki.png?t=' + new Date().getTime(), {
+            fetch('https://wikipedia.jjmm.ink/static/images/project-logos/zhwiki.png?t=' + new Date().getTime(), {
                 method: 'HEAD',
                 mode: 'no-cors',
                 cache: 'no-store'
